@@ -1,0 +1,47 @@
+[debug] [2022-12-14T19:58:25.260Z] ----------------------------------------------------------------------
+[debug] [2022-12-14T19:58:25.262Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start
+[debug] [2022-12-14T19:58:25.262Z] CLI Version:   11.18.0
+[debug] [2022-12-14T19:58:25.262Z] Platform:      darwin
+[debug] [2022-12-14T19:58:25.262Z] Node Version:  v18.2.0
+[debug] [2022-12-14T19:58:25.263Z] Time:          Wed Dec 14 2022 19:58:25 GMT+0000 (Greenwich Mean Time)
+[debug] [2022-12-14T19:58:25.263Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-14T19:58:25.397Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-14T19:58:25.398Z] > authorizing via signed-in user (adzo.lisa@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2022-12-14T19:58:26.252Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] ⚠  hosting: Hosting Emulator unable to start on port 5000, starting on 5002 instead. {"metadata":{"emulator":{"name":"hosting"},"message":"Hosting Emulator unable to start on port 5000, starting on 5002 instead."}}
+[debug] [2022-12-14T19:58:26.252Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-14T19:58:26.253Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5002}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2022-12-14T19:58:26.267Z] [hub] writing locator at /var/folders/27/q1rwy80n2t712zll0w9s1gmc0000gn/T/hub-koppelvibz-68857.json
+[debug] [2022-12-14T19:58:26.298Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/koppelvibz-68857/sites 
+[debug] [2022-12-14T19:58:27.761Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/koppelvibz-68857/sites 200
+[debug] [2022-12-14T19:58:27.762Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/koppelvibz-68857/sites {"sites":[{"name":"projects/koppelvibz-68857/sites/koppelvibz-68857","defaultUrl":"https://koppelvibz-68857.web.app","appId":"1:743732010153:web:483fbb2f74be7230a3ddb8","type":"DEFAULT_SITE"}]}
+[debug] [2022-12-14T19:58:27.762Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/koppelvibz-68857/webApps/1:743732010153:web:483fbb2f74be7230a3ddb8/config [none]
+[debug] [2022-12-14T19:58:29.824Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/koppelvibz-68857/webApps/1:743732010153:web:483fbb2f74be7230a3ddb8/config 200
+[debug] [2022-12-14T19:58:29.825Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/koppelvibz-68857/webApps/1:743732010153:web:483fbb2f74be7230a3ddb8/config {"projectId":"koppelvibz-68857","appId":"1:743732010153:web:483fbb2f74be7230a3ddb8","storageBucket":"koppelvibz-68857.appspot.com","apiKey":"AIzaSyA1ab4Ra-WMu0gJ-G40tKNUsHeo1XQyYxM","authDomain":"koppelvibz-68857.firebaseapp.com","messagingSenderId":"743732010153","measurementId":"G-DWS6TV8JLT"}
+[debug] [2022-12-14T19:58:29.853Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/koppelvibz-68857 [none]
+[debug] [2022-12-14T19:58:30.513Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/koppelvibz-68857 200
+[debug] [2022-12-14T19:58:30.513Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/koppelvibz-68857 {"projectId":"koppelvibz-68857","projectNumber":"743732010153","displayName":"KoppelVibz","name":"projects/koppelvibz-68857","resources":{"hostingSite":"koppelvibz-68857"},"state":"ACTIVE","etag":"1_bb103ded-41ad-4a7a-ab47-4457deb370e2"}
+[info] i  hosting[koppelvibz-68857]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[koppelvibz-68857]: Local server: http://127.0.0.1:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5002\u001b[22m\u001b[24m"}}
+[warn] ⚠  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5002 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [14/Dec/2022:19:58:52 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Dec/2022:19:58:52 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Dec/2022:19:58:52 +0000] "GET /%PUBLIC_URL%/manifest.json HTTP/1.1" 500 - "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Dec/2022:19:58:52 +0000] \"GET /%PUBLIC_URL%/manifest.json HTTP/1.1\" 500 - \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Dec/2022:19:58:52 +0000] "GET /path/to/flowbite/dist/flowbite.bundle.js HTTP/1.1" 200 - "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Dec/2022:19:58:52 +0000] \"GET /path/to/flowbite/dist/flowbite.bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15\""}}
+[info] i  hosting: 127.0.0.1 - - [14/Dec/2022:19:58:52 +0000] "GET /%PUBLIC_URL%/favicon.ico HTTP/1.1" 500 - "http://127.0.0.1:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [14/Dec/2022:19:58:52 +0000] \"GET /%PUBLIC_URL%/favicon.ico HTTP/1.1\" 500 - \"http://127.0.0.1:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15\""}}
