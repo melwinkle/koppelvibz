@@ -129,108 +129,108 @@ function App() {
           </p>
         </div>
         <div class="grid grid-cols-3 gap-x-4 md:gap-y-20 md:gap-y-12 gap-y-2  md:pt-20  pt-5">
-          <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 p-4">
+          <div class="w-full md:h-[8rem] h-[5.5rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 p-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
                 src={scale}
                 alt="scale"
-                class="col-span-1 justify-self-center xl:pt-2 xl:pr-2"
+                class="col-span-1 justify-self-center xl:pt-2 xl:pr-2 md:h-[6rem] h-[3rem]"
               ></img>
               <div class="col-span-2 justify-self-center xl:pt-2 ">
                 <p class="text-teal font-bold text-base">INTEGRITY</p>
-                <p class="md:text-[14px] text-[12px]">
+                <p class="md:text-[14px] text-[11px]">
                   Know and do WHAT is right as a team
                 </p>
               </div>
             </div>
           </div>
-          <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
+          <div class="w-full md:h-[8rem] h-[5.5rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
                 src={respect}
                 alt="scale"
-                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
+                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2 md:h-[6rem] h-[3rem]"
               ></img>
               <div class="col-span-2 justify-self-center xl:pt-2 ">
                 <p class="text-teal font-bold text-base">RESPECT</p>
-                <p class="md:text-[14px] text-[12px]">
+                <p class="md:text-[14px] text-[11px]">
                   Treating others the way you want to be treated
                 </p>
               </div>
             </div>
           </div>
-          <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
+          <div class="w-full md:h-[8rem] h-[5.5rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
                 src={pray}
                 alt="scale"
-                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
+                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2 md:h-[6rem] h-[3rem]"
               ></img>
               <div class="col-span-2 justify-self-center xl:pt-2 ">
                 <p class="text-teal font-bold text-base">RESPONSILBILITY</p>
-                <p class="md:text-[14px] text-[12px]">
+                <p class="md:text-[14px] text-[11px]">
                   Embrace opportunities to contribute and learn more
                 </p>
               </div>
             </div>
           </div>
-          <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
+          <div class="w-full md:h-[8rem] h-[5.5rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
                 src={shake}
                 alt="scale"
-                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
+                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2 md:h-[6rem] h-[3rem]"
               ></img>
               <div class="col-span-2 justify-self-center xl:pt-2 ">
                 <p class="text-teal font-bold text-base">SPORTSMANSHIP</p>
                 <p class="md:text-[14px] text-[12px]">
-                  Bring your best to all competition
+                Bring your best to all competition
                 </p>
               </div>
             </div>
           </div>
-          <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
+          <div class="w-full md:h-[8rem] h-[5.5rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
                 src={leader}
                 alt="scale"
-                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
+                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2 md:h-[6rem] h-[3rem]"
               ></img>
               <div class="col-span-2 justify-self-center xl:pt-2 ">
                 <p class="text-teal font-bold text-base">SERVANT LEADERSHIP</p>
-                <p class="md:text-[14px] text-[12px]">
+                <p class="md:text-[14px] text-[11px]">
                   Serve the common good, being part of the revolution of
                   transportation
                 </p>
               </div>
             </div>
           </div>
-          <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
+          <div class="w-full md:h-[8rem] h-[5.5rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
                 src={communicate}
                 alt="scale"
-                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
+                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2 md:h-[6rem] h-[3rem]"
               ></img>
               <div class="col-span-2 justify-self-center xl:pt-2 ">
                 <p class="text-teal font-bold text-base  ">COMMUNICATION</p>
-                <p class="md:text-[14px] text-[12px]">
+                <p class="md:text-[14px] text-[11px]">
                   Be your brother’s keeper, with sad and happy moments.
                   Transparency is key.
                 </p>
               </div>
             </div>
           </div>
-          <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
+          <div class="w-full md:h-[8rem] h-[5.5rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
                 src={humility}
                 alt="scale"
-                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
+                class="col-span-1  justify-self-center xl:pt-2 xl:pr-2 md:h-[6rem] h-[3rem]"
               ></img>
               <div class="col-span-2 justify-self-center xl:pt-2 ">
                 <p class="text-teal font-bold text-base">HUMILITY</p>
-                <p class="md:text-[14px] text-[12px]">
+                <p class="md:text-[14px] text-[11px]">
                   We are all here to learn.Education never ends
                 </p>
               </div>
@@ -318,7 +318,7 @@ function App() {
           </div>
           <div class="h-96 md:h-full md:w-2/4 md:pt-24 pt-2 ">
             <img
-              class="md:h-[45rem] h-3/4 w-full "
+              class="md:h-[45.5rem] h-3/4 w-full "
               src={target}
               alt="target"
             ></img>
