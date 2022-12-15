@@ -106,8 +106,13 @@ function App() {
           <div class="px-10 text-white md:self-center md:w-2/4">
             <p class="text-3xl text-center ">Who we are</p>
             <p class="text-justify  md:text-base text-[12px]">
-              We are a tech startup based in Ghana with the sole aim of
-              improving the transportation sector in Ghana and beyond. <br></br>
+              We are a technology private and public travelling ride hailing
+              service platform that seeks to commute passengers and delivery of
+              packages/waste to their preferred destinations by providing them
+              with the required information and services necessary to make
+              travelling stress-free. The idea is designed to help drivers
+              locate passengers going the same route through bookings, and
+              pickups at a Viber. <br></br>
               <br></br>
               We are a committed company who seek to help studetns in the
               univesity and the working class solve their transportation issues.{" "}
@@ -184,7 +189,7 @@ function App() {
               <div class="col-span-2 justify-self-center xl:pt-2 ">
                 <p class="text-teal font-bold text-base">SPORTSMANSHIP</p>
                 <p class="md:text-[14px] text-[12px]">
-                Bring your best to all competition
+                  Bring your best to all competition
                 </p>
               </div>
             </div>
@@ -334,16 +339,16 @@ function App() {
               class="md:w-full w-full h-3/4 px-16 justify-items-center  "
             ></img>
             <ul class="flex md:px-28 px-8 gap-4 md:-mt-20 ">
-              <li >
+              <li>
                 <img src={instagram} alt="logo" class="w-[2rem] h-[2rem]"></img>
               </li>
-              <li >
+              <li>
                 <img src={facebook} alt="logo" class="w-[2rem] h-[2rem]"></img>
               </li>
-              <li >
+              <li>
                 <img src={twitter} alt="logo" class="w-[2rem] h-[2rem]"></img>
               </li>
-              <li >
+              <li>
                 <img src={youtube} alt="logo" class="w-[2rem] h-[2rem]"></img>
               </li>
             </ul>
@@ -351,26 +356,34 @@ function App() {
           <div class="md:col-span-4 col-span-12 md:pt-20 pt-2 md:justify-self-center px-8">
             <p class="ht font-bold xl:text-2xl texl-base">Support</p>
             <ul class="leading-[4rem]">
-              <li><Link to="/">About Us</Link></li>
-              <li><Link to="/services">Services</Link> </li>
-              <li><Link to="/team">Our Team</Link></li>
-              <li><Link to="/contact">Contact Us</Link></li>
-              <li><Link to="/download">Download App</Link></li>
+              <li>
+                <Link to="/">About Us</Link>
+              </li>
+              <li>
+                <Link to="/services">Services</Link>{" "}
+              </li>
+              <li>
+                <Link to="/team">Our Team</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact Us</Link>
+              </li>
+              <li>
+                <Link to="/download">Download App</Link>
+              </li>
             </ul>
           </div>
           <div class="md:col-span-4 col-span-12 md:pt-20 pt-2 md:justify-self-center px-8">
             <span class="flex ht ">
               <img src={mail} alt="logo" class="w-[2rem] h-[2rem]"></img>
-              <p class="pt-2">Sign up
-              for our newsletter</p>
+              <p class="pt-2">Sign up for our newsletter</p>
             </span>
             <div>
               <form className="flex flex-col gap-4">
                 <div>
-                  <div className="mb-2 block">
-                  </div>
+                  <div className="mb-2 block"></div>
                   <TextInput
-                  class="block w-full disabled:cursor-not-allowed disabled:opacity-50 bg-transparent text-crimson  p-2.5 text-sm border border-b-crimson border-t-white border-l-white border-r-white focus:outline-none focus:border-none focus:ring-1 focus:ring-crimson placeholder-crimson"
+                    class="block w-full disabled:cursor-not-allowed disabled:opacity-50 bg-transparent text-crimson  p-2.5 text-sm border border-b-crimson border-t-white border-l-white border-r-white focus:outline-none focus:border-none focus:ring-1 focus:ring-crimson placeholder-crimson"
                     id="email1"
                     type="email"
                     placeholder="Enter your email address"
@@ -378,13 +391,17 @@ function App() {
                   />
                 </div>
 
-                <Button type="submit" class="text-white bg-teal border border-transparent hover:bg-teal focus:ring-4 focus:ring-teal disabled:hover:bg-teal dark:bg-teal dark:hover:bg-teal dark:focus:ring-teal dark:disabled:hover:bg-teal focus:!ring-2 group flex h-min items-center justify-center p-0.5 text-center font-medium focus:z-10 rounded-lg ">Submit</Button>
+                <Button
+                  type="submit"
+                  class="text-white bg-teal border border-transparent hover:bg-teal focus:ring-4 focus:ring-teal disabled:hover:bg-teal dark:bg-teal dark:hover:bg-teal dark:focus:ring-teal dark:disabled:hover:bg-teal focus:!ring-2 group flex h-min items-center justify-center p-0.5 text-center font-medium focus:z-10 rounded-lg "
+                >
+                  Submit
+                </Button>
               </form>
             </div>
           </div>
-          
+
           <div class=" relative col-span-12 justify-self-center">
-          
             <p class="inset-x-0 bottom-0 text-teal md:text-base text-sm">
               ©2022 Koppel Vibz Ltd. All rights reserved
             </p>

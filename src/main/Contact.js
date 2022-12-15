@@ -59,7 +59,7 @@ function Contact() {
           <div class="self-center md:px-20 pb-5 md:w-2/4">
             <p class="ht font-bold text-4xl pb-4">Contact Us</p>
             <p class="text-justify md:w-3/4 ">
-              Have an enquiry?Either fill the form or call us on +233302000000
+              Have an enquiry?Either fill the form or call us on +233240979969
               and our support team will answer all your questions
             </p>
           </div>
@@ -126,36 +126,149 @@ function Contact() {
           </div>
         </div>
       </section>
-      <section class="w-screen h-screen bg-teal bg-opacity-60 px-4">
+      <section class="w-screen  bg-teal bg-opacity-60 px-4">
         <p class="text-white text-center md:text-3xl text-xl font-bold pt-10">
           Frequently Asked Questions(FAQ)
         </p>
         <div class="mt-10">
-          <Accordion alwaysOpen={true} class="divide-y divide-teal border-none rounded border bg-white">
+          <Accordion
+            alwaysOpen={true}
+            class="divide-y divide-teal border-none rounded border bg-white"
+          >
             <Accordion.Panel class="flex w-full items-center justify-between py-5 px-5 text-left font-medium text-gray-500 border-none !outline-none focus:!outline-none focus:!ring-0">
-              <Accordion.Title>How do I register?</Accordion.Title>
+              <Accordion.Title>What is Koppel Vibz Limited</Accordion.Title>
               <Accordion.Content>
                 <p className="mb-2 text-teal">
-                  Flowbite is an open-source library of interactive components
-                  built on top of Tailwind CSS including buttons, dropdowns,
-                  modals, navbars, and more.
+                  Kopple Vibz a technology private and public travelling ride
+                  hailing service platform that seeks to commute passengers and
+                  delivery of packages/waste to their preferred destinations by
+                  providing them with the required information and services
+                  necessary to make travelling stress-free. The idea is designed
+                  to help drivers locate passengers going the same route through
+                  bookings, and pickups at a Viber
                 </p>
-                
               </Accordion.Content>
             </Accordion.Panel>
           </Accordion>
         </div>
         <div class="mt-10">
-          <Accordion alwaysOpen={true} class="divide-y divide-teal border-none rounded border bg-white">
+          <Accordion
+            alwaysOpen={true}
+            class="divide-y divide-teal border-none rounded border bg-white"
+          >
             <Accordion.Panel class="flex w-full items-center justify-between py-5 px-5 text-left font-medium text-gray-500 border-none !outline-none focus:!outline-none focus:!ring-0">
-              <Accordion.Title>How do I register?</Accordion.Title>
+              <Accordion.Title>
+                What options are available to access the services Koppel provides
+              </Accordion.Title>
               <Accordion.Content>
                 <p className="mb-2 text-teal">
-                  Flowbite is an open-source library of interactive components
-                  built on top of Tailwind CSS including buttons, dropdowns,
-                  modals, navbars, and more.
+                  This has been made accessible on web, USSD and mobile
+                  application platform
                 </p>
-                
+              </Accordion.Content>
+            </Accordion.Panel>
+          </Accordion>
+        </div>
+        <div class="mt-10">
+          <Accordion
+            alwaysOpen={true}
+            class="divide-y divide-teal border-none rounded border bg-white"
+          >
+            <Accordion.Panel class="flex w-full items-center justify-between py-5 px-5 text-left font-medium text-gray-500 border-none !outline-none focus:!outline-none focus:!ring-0">
+              <Accordion.Title>
+                What is the difference between a Viber and a Driver
+              </Accordion.Title>
+              <Accordion.Content>
+                <p className="mb-2 text-teal">
+                  A viber is a passenger or customer who makes requests to access the services available. A driver is a provider that provides information to create requests for the services available
+                </p>
+              </Accordion.Content>
+            </Accordion.Panel>
+          </Accordion>
+        </div>
+        <div class="mt-10">
+          <Accordion
+            alwaysOpen={true}
+            class="divide-y divide-teal border-none rounded border bg-white"
+          >
+            <Accordion.Panel class="flex w-full items-center justify-between py-5 px-5 text-left font-medium text-gray-500 border-none !outline-none focus:!outline-none focus:!ring-0">
+              <Accordion.Title>
+                Can I use the services without registering?
+              </Accordion.Title>
+              <Accordion.Content>
+                <p className="mb-2 text-teal">
+                  No. You have to be a fully registered and verified Koppel Vibz member before accessing the services
+                </p>
+              </Accordion.Content>
+            </Accordion.Panel>
+          </Accordion>
+        </div>
+        <div class="mt-10">
+          <Accordion
+            alwaysOpen={true}
+            class="divide-y divide-teal border-none rounded border bg-white"
+          >
+            <Accordion.Panel class="flex w-full items-center justify-between py-5 px-5 text-left font-medium text-gray-500 border-none !outline-none focus:!outline-none focus:!ring-0">
+              <Accordion.Title>
+                How can I book a ride?
+              </Accordion.Title>
+              <Accordion.Content>
+                <p className="mb-2 text-teal">
+                  You can book a ride via mobile application and WhatsApp by registered members after placing their take off and drop off location on the book ride search menu
+                </p>
+              </Accordion.Content>
+            </Accordion.Panel>
+          </Accordion>
+        </div>
+        <div class="mt-10">
+          <Accordion
+            alwaysOpen={true}
+            class="divide-y divide-teal border-none rounded border bg-white"
+          >
+            <Accordion.Panel class="flex w-full items-center justify-between py-5 px-5 text-left font-medium text-gray-500 border-none !outline-none focus:!outline-none focus:!ring-0">
+              <Accordion.Title>
+                Is there a user age restriction for Koppel Vibz
+              </Accordion.Title>
+              <Accordion.Content>
+                <p className="mb-2 text-teal">
+                  Yes there is. Anyone below the age of 16 is not authorized to use the application 
+                </p>
+              </Accordion.Content>
+            </Accordion.Panel>
+          </Accordion>
+        </div>
+        <div class="mt-10">
+          <Accordion
+            alwaysOpen={true}
+            class="divide-y divide-teal border-none rounded border bg-white"
+          >
+            <Accordion.Panel class="flex w-full items-center justify-between py-5 px-5 text-left font-medium text-gray-500 border-none !outline-none focus:!outline-none focus:!ring-0">
+              <Accordion.Title>
+                What information do I need to register as a driver for Koppel Vibz
+              </Accordion.Title>
+              <Accordion.Content>
+                <p className="mb-2 text-teal">
+                  1.Valid Driving license
+                  2.Authroization to use the vehicle commercially
+                  3. A good working vehicle with a maximum of 20 seats
+                </p>
+              </Accordion.Content>
+            </Accordion.Panel>
+          </Accordion>
+        </div>
+        <div class="mt-10">
+          <Accordion
+            alwaysOpen={true}
+            class="divide-y divide-teal border-none rounded border bg-white"
+          >
+            <Accordion.Panel class="flex w-full items-center justify-between py-5 px-5 text-left font-medium text-gray-500 border-none !outline-none focus:!outline-none focus:!ring-0">
+              <Accordion.Title>
+                What modes of payment can a viber use to pay for a service
+              </Accordion.Title>
+              <Accordion.Content>
+                <p className="mb-2 text-teal">
+                  Mobile money transfer or Cash
+                </p>
               </Accordion.Content>
             </Accordion.Panel>
           </Accordion>

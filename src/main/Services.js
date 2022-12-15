@@ -2,17 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Button, TextInput } from "flowbite-react";
 import logo from "../images/koppel_logo_no.png";
-import scale from "../images/scale.svg";
-import respect from "../images/respect.svg";
-import pray from "../images/hand.svg";
-import communicate from "../images/comm.svg";
 import leader from "../images/award.svg";
-import shake from "../images/shake.svg";
 import mail from "../images/letter.svg";
 import instagram from "../images/Instagram.svg";
 import facebook from "../images/Facebook.svg";
 import twitter from "../images/Twitter.svg";
 import youtube from "../images/YouTube.svg";
+import bus from "../images/Bus-1.svg";
+import city from "../images/Bus-2.svg";
+import privat from "../images/Bus-3.svg";
+import car from "../images/Bus.svg";
+import bike from "../images/DirtBike.svg";
+import waste from "../images/GarbageTruck.svg";
 
 function Services() {
   return (
@@ -70,7 +71,7 @@ function Services() {
           <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 p-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
-                src={scale}
+                src={bus}
                 alt="scale"
                 class="col-span-1 justify-self-center xl:pt-2 xl:pr-2"
               ></img>
@@ -86,7 +87,7 @@ function Services() {
           <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
-                src={respect}
+                src={bike}
                 alt="scale"
                 class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
               ></img>
@@ -102,7 +103,7 @@ function Services() {
           <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
-                src={pray}
+                src={privat}
                 alt="scale"
                 class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
               ></img>
@@ -120,7 +121,7 @@ function Services() {
           <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
-                src={shake}
+                src={waste}
                 alt="scale"
                 class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
               ></img>
@@ -136,7 +137,7 @@ function Services() {
           <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
-                src={leader}
+                src={city}
                 alt="scale"
                 class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
               ></img>
@@ -152,7 +153,7 @@ function Services() {
           <div class="w-full md:h-[8rem] h-[6rem] bg-[#f0f0f0] rounded md:col-span-1 col-span-3 pl-4 pr-4 pt-4 pb-4">
             <div class="grid grid-cols-3 gap-1 ">
               <img
-                src={communicate}
+                src={car}
                 alt="scale"
                 class="col-span-1  justify-self-center xl:pt-2 xl:pr-2"
               ></img>
