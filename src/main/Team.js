@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Navbar, Button, TextInput } from "flowbite-react";
 import logo from "../images/koppel_logo_no.png";
-import avatar from "../images/avatar.png";
+import avatar from "../images/profilehat.png";
 import career from "../images/career.png";
 import mail from "../images/letter.svg";
 import instagram from "../images/Instagram.svg";
@@ -68,11 +68,35 @@ function Team(){
 
         <div class="md:col-span-1 col-span-3  ">
           <img src={avatar} alt="employee" class="w-64 h-64   "></img>
-            <p class="ht font-bold text-center">John Doe</p>
+            <p class="ht font-bold text-center">Isaac Jackah</p>
           <p class="text-center">Founder and CEO</p>
         </div>
 
         <div class="md:col-span-1 col-span-3  ">
+          <img src={avatar} alt="employee" class="w-64 h-64   "></img>
+            <p class="ht font-bold text-center">Jacqueline Afua Nyakutse</p>
+          <p class="text-center">Business Analyst</p>
+        </div>
+
+        <div class="md:col-span-1 col-span-3  ">
+          <img src={avatar} alt="employee" class="w-64 h-64   "></img>
+            <p class="ht font-bold text-center">Derrick Torsu</p>
+          <p class="text-center">Senior Software Developer</p>
+        </div>
+
+        <div class="md:col-span-1 col-span-3  ">
+          <img src={avatar} alt="employee" class="w-64 h-64   "></img>
+            <p class="ht font-bold text-center">Deborah Adu Korang</p>
+          <p class="text-center">Head of cybersecurity</p>
+        </div>
+
+        <div class="md:col-span-1 col-span-3  ">
+          <img src={avatar} alt="employee" class="w-64 h-64   "></img>
+            <p class="ht font-bold text-center">Lisa Akpalu</p>
+          <p class="text-center">Project Manager</p>
+        </div>
+
+        {/* <div class="md:col-span-1 col-span-3  ">
           <img src={avatar} alt="employee" class="w-64 h-64   "></img>
             <p class="ht font-bold text-center">John Doe</p>
           <p class="text-center">Founder and CEO</p>
@@ -83,37 +107,6 @@ function Team(){
             <p class="ht font-bold text-center">John Doe</p>
           <p class="text-center">Founder and CEO</p>
         </div>
-
-        <div class="md:col-span-1 col-span-3  ">
-          <img src={avatar} alt="employee" class="w-64 h-64   "></img>
-            <p class="ht font-bold text-center">John Doe</p>
-          <p class="text-center">Founder and CEO</p>
-        </div>
-
-        <div class="md:col-span-1 col-span-3  ">
-          <img src={avatar} alt="employee" class="w-64 h-64   "></img>
-            <p class="ht font-bold text-center">John Doe</p>
-          <p class="text-center">Founder and CEO</p>
-        </div>
-
-        <div class="md:col-span-1 col-span-3  ">
-          <img src={avatar} alt="employee" class="w-64 h-64   "></img>
-            <p class="ht font-bold text-center">John Doe</p>
-          <p class="text-center">Founder and CEO</p>
-        </div>
-
-        <div class="md:col-span-1 col-span-3  ">
-          <img src={avatar} alt="employee" class="w-64 h-64   "></img>
-            <p class="ht font-bold text-center">John Doe</p>
-          <p class="text-center">Founder and CEO</p>
-        </div>
-
-        <div class="md:col-span-1 col-span-3  ">
-          <img src={avatar} alt="employee" class="w-64 h-64   "></img>
-            <p class="ht font-bold text-center">John Doe</p>
-          <p class="text-center">Founder and CEO</p>
-        </div>
-
 
         <div class="md:col-span-1 col-span-3  ">
           <img src={avatar} alt="employee" class="w-64 h-64   "></img>
@@ -141,6 +134,13 @@ function Team(){
             <p class="ht font-bold text-center">John Doe</p>
           <p class="text-center">Founder and CEO</p>
         </div>
+
+
+        <div class="md:col-span-1 col-span-3  ">
+          <img src={avatar} alt="employee" class="w-64 h-64   "></img>
+            <p class="ht font-bold text-center">John Doe</p>
+          <p class="text-center">Founder and CEO</p>
+        </div> */}
 
       </div>
        
