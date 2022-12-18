@@ -1,16 +1,52 @@
 import React from "react";
-import {
+import
+{
   Navbar,
   Button,
   Label,
-  TextInput,
+  // TextInput,
   Textarea,
   Accordion,
 } from "flowbite-react";
 import logo from "../images/koppel_logo_no.png";
 import rocket from "../images/Rocket.svg";
+import { db } from "./firebase";
+import { useState } from "react";
+import { addDoc, collection } from "firebase/firestore";
 
-function Contact() {
+// import  {useState} from 'react';
+
+function Contact()
+{
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [subject, setSubject] = useState();
+  const [message, setMessage] = useState();
+
+  const userCollectionRef = collection(db, "contactdata")
+  // const [loader, setLoader] = useState(false);
+  const handleSubmit = (event) =>
+  {
+    event.preventDefault();
+    addDoc(userCollectionRef, {
+      name: name,
+      email: email,
+      subject: subject,
+      message: message,
+    }).then(() =>
+    {
+      if (!alert("Form Submitted Succefully")) { }
+    }).catch((error) =>
+    {
+      alert(error.message)
+    })
+    setName('');
+    setEmail('');
+    setSubject('');
+    setMessage('');
+
+  }
+
   return (
     <div>
       <section class="w-screen h-screen bg-busmap bg-cover bg-center relative px-4">
@@ -70,36 +106,42 @@ function Contact() {
               </p>{" "}
               <img src={rocket} class="w-10 h-10" alt="rocket"></img>
             </span>
-            <form className="flex flex-col gap-4">
+            <form className="flex flex-col gap-4" >
               <div>
                 <div className="mb-2 block">
-                  <TextInput
+                  <input
                     id="fullname"
                     type="text"
                     required={true}
                     placeholder="Full Name*"
+                    value={name}
+                    onChange={(event) => { setName(event.target.value) }}
                     class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 bg-teal bg-opacity-20 border-none text-teal focus:border-teal focus:ring-teal  rounded p-2.5 text-sm"
                   />
                 </div>
               </div>
               <div>
                 <div className="mb-2 block">
-                  <TextInput
+                  <input
                     id="email1"
                     type="email"
                     placeholder="Email*"
                     required={true}
+                    value={email}
+                    onChange={(event) => { setEmail(event.target.value) }}
                     class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 bg-teal bg-opacity-20 border-none text-teal focus:border-teal focus:ring-teal  rounded p-2.5 text-sm"
                   />
                 </div>
               </div>
               <div>
                 <div className="mb-2 block">
-                  <TextInput
+                  <input
                     id="subject"
                     type="text"
                     required={true}
                     placeholder="Subject"
+                    value={subject}
+                    onChange={(event) => { setSubject(event.target.value) }}
                     class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 bg-teal bg-opacity-20 border-none text-teal focus:border-teal focus:ring-teal  rounded p-2.5 text-sm"
                   />
                 </div>
@@ -113,12 +155,15 @@ function Contact() {
                   id="comment"
                   required={true}
                   rows={4}
+                  value={message}
+                  onChange={(event) => { setMessage(event.target.value) }}
                   class="block w-full border disabled:cursor-not-allowed disabled:opacity-50 bg-teal bg-opacity-20 border-none text-teal focus:border-teal focus:ring-teal  rounded p-2.5 text-sm"
                 />
               </div>
               <Button
-                class="md:w-2/4 w-3/4 text-white bg-teal border border-transparent hover:bg-teal focus:ring-4 focus:ring-teal disabled:hover:bg-teal dark:bg-teal dark:hover:bg-teal dark:focus:ring-teal dark:disabled:hover:bg-teal focus:!ring-2 group flex h-min items-center justify-center p-0.5 text-center font-medium focus:z-10 rounded"
+                class="md:w-2/4 w-3/4 text-white bg-teal border border-transparent hover:bg-teal focus:ring-4 focus:ring-teal disabled:hover:bg-teal dark:bg-teal dark:hover:bg-teal dark:focus:ring-teal dark:disabled:hover:bg-teal  group flex h-min items-center justify-center p-0.5 text-center font-medium focus:z-10 rounded"
                 type="submit"
+                onClick={handleSubmit}
               >
                 Send message
               </Button>
@@ -231,7 +276,7 @@ function Contact() {
               </Accordion.Title>
               <Accordion.Content>
                 <p className="mb-2 text-teal">
-                  Yes there is. Anyone below the age of 16 is not authorized to use the application 
+                  Yes there is. Anyone below the age of 16 is not authorized to use the application
                 </p>
               </Accordion.Content>
             </Accordion.Panel>
